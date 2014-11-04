@@ -1,5 +1,5 @@
 {
-    "name" : "antwebes/MetadataBundle",
+    "name" : "antwebes/metadata-bundle",
     "description" : "A bundle to get info to fill page content",
     "type" : "symfony-bundle",
     "authors" : [{
