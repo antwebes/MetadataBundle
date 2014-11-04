@@ -1,5 +1,5 @@
 {
-    "name" : "Ant/MetadataBundle",
+    "name" : "ant/MetadataBundle",
     "description" : "A bundle to get info to fill page content",
     "type" : "symfony-bundle",
     "authors" : [{
@@ -22,5 +22,10 @@
     "minimum-stability": "dev",
     "target-dir" : "Ant/MetadataBundle",
     "repositories" : [{
-    }]
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "dev-master"
+        }
+    }
 }
