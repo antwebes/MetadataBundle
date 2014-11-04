@@ -4,7 +4,7 @@
     "type" : "symfony-bundle",
     "authors" : [{
         "name" : "Chrysweel",
-        "email" : "-"
+        "homepage": "https://github.com/antwebes"
     }],
     "keywords" : [
         "metadata bundle"
@@ -25,7 +25,7 @@
     }],
     "extra" : {
     "branch-alias" : {
-            "dev-master" : "dev-master"
+            "dev-master" : "0.1.x-dev"
         }
     }
 }
