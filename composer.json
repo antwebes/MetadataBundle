@@ -19,7 +19,13 @@
             "Ant\\MetadataBundle" : ""
         }
     },
+    "minimum-stability": "dev",
     "target-dir" : "Ant/MetadataBundle",
     "repositories" : [{
-    }]
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "dev-master"
+        }
+    }
 }
