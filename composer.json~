@@ -1,0 +1,25 @@
+{
+    "name" : "ant/MetadataBundle",
+    "description" : "A bundle to get info to fill page content",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Chrysweel",
+        "email" : "-"
+    }],
+    "keywords" : [
+        "metadata bundle"
+    ],
+    "license" : [
+        "GPL"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Ant\\MetadataBundle" : ""
+        }
+    },
+    "target-dir" : "Ant/MetadataBundle",
+    "repositories" : [{
+    }]
+}
