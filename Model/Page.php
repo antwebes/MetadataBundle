@@ -25,6 +25,7 @@ abstract class Page implements PageInterface {
 	public function __construct() {
 		$this->publicatedAt = new \DateTime('now');
 	}
+	
 	public function getPublicatedAt() {
 		return $this->publicatedAt;
 	}

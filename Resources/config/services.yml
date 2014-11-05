@@ -2,6 +2,10 @@ parameters:
 #    metadata.example.class: Ant\MetadataBundle\Example
 
 services:
-#    metadata.example:
-#        class: %metadata.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
+    ant.metadata.repositories.page:
+        class: Ant\MetadataBundle\Repositories\PageRepository
+        arguments: [@doctrine.orm.entity_manager, 'Ant\CoreBundle\Entity\Page']
+    
+    ant.metadata.manager.page:
+        class: Ant\MetadataBundle\EntityManager\PageManager
+        arguments: [@ant.metadata.repositories.page, @event_dispatcher]
